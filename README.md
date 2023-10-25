@@ -1,2 +1,2 @@
-# Julia
-Julia Projects I've written. Mostly for my Industrial Mathematics Course, MCS472
+# Knuth Algorithm Poisson Random Number Generator
+#### The report evaluates the performance of various algorithms in Julia, MATLAB, and Python, particularly focusing on their runtimes for large datasets. The findings reveal that Julia's standard implementation was significantly faster—nearly 30,000 times—than its MATLAB counterpart. Interestingly, while Julia's original algorithm boasted the fastest runtime, an alternative implementation using a Log-Normal approximation to the Poisson distribution excelled in terms of standard deviation, despite being nearly 1,800 times slower. The study underscores the necessity of considering both time complexity and statistical properties like standard deviation when choosing algorithms, aiding developers and researchers in selecting appropriate random number generator algorithms for their projects.
